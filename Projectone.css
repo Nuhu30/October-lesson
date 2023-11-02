@@ -1,0 +1,137 @@
+body {
+width: 85%;
+border: solid black;
+margin: auto;
+padding: 20px;
+padding-left: 10px;
+margin-top: 30px;
+margin-bottom: 50px;
+
+}
+
+
+
+
+header h1 {
+
+color: rgb(137, 37, 37);
+font-size: larger larger;
+
+}
+
+header nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    
+    
+}
+
+
+
+
+header nav ul li{
+
+    padding: 10px 15px;
+    
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+        
+}
+
+header nav ul li a:hover{
+border-bottom: 1px solid rgb(21, 31, 143)
+
+
+
+}
+
+span {
+    color: brown;
+}
+
+main {
+
+    background-color: rgba(235, 222, 222, 0.971)
+
+}
+
+#Topside {
+
+    text-align: center;
+    background-color: burlywood
+}
+img {
+
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.flex-container {
+    display: flex;
+    padding: 10%;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin: auto;
+    
+    
+    
+
+}
+
+p {
+
+    font-family: 'Times New Roman', Times, serif    ;
+
+}
+
+footer{
+background-color: burlywood;
+
+}
+
+
+h3 {
+
+    text-align: center;
+    color: black    
+}
+
+body nav ul li a{
+    text-decoration: none;
+    color: black
+
+}
+
+#aboutus {
+background-color:burlywood;
+}
+
+#base {
+
+    background-color: burlywood;
+    size: 30px;
+
+}
+
+
+#Aboutpic{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgrey;
+    }
+  }
